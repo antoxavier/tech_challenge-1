@@ -3,7 +3,7 @@
 Create a React application that shows a list of songs with their information and metrics displayed. The app should have at least **2 pages (views)**:
 A landing page, and a page to show data coming from an API.
 
-- Everything should be written in JavaScript / Node.
+- Everything should be written in JavaScript / Node with Typescript.
 
 - Fork this repo and share the link when you are finished!
 
@@ -25,7 +25,7 @@ A landing page, and a page to show data coming from an API.
 
 ### API Notes
 
-Store the included JSON file in an S3 bucket and use the AWS SAM CLI with a **node.js** lambda function to serve the frontend with the data.
+Store the included JSON file in an S3 bucket and use the AWS SAM CLI with a **node.js & typescript** lambda function to serve the frontend with the data.
 
 Authentication is not necessary.
 
@@ -33,6 +33,4 @@ You do not need to deploy or host this anywhere.
 
 SAM CLI instructions: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html
 
-## Bonus
 
-Use GraphQL and/or Typescript
